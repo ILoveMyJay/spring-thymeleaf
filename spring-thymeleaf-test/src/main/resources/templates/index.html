@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+	<head>
+		<meta charset="utf-8">
+		<title>一级计划加载</title>
+		<link rel="stylesheet" th:href="@{/common/css/style.css}"/>
+		<script th:src="@{/common/js/jquery2.0.0.min.js}"></script>
+	</head>
+	<body>
+		<!--head-->
+		<div class="head">
+			<p>Ebon-Application</p>
+			<span class="h-exit">退出</span><b>|</b><span class="h-admin">  / admin</span><span class="h-administrator"> 管理员&nbsp;</span>
+			<div class="head-square"><div class="head-count">12</div></div>
+		</div>
+		<!--	侧边栏-->
+		<div class="sidebar">
+			<div class="headportrait"></div>
+			<ul>
+				<li><span></span><div></div></li>
+				<li><span></span><div></div></li>
+				<li><span></span><div></div></li>
+				<li><span></span><div></div></li>
+			</ul>
+		</div>
+		<!--主体部分-->
+		<div class="cneter">
+			<div class="center-h"></div>
+			<div class="center-c">
+				<div class="head-plan">
+					<h2>一级加载计划</h2>
+				    <ul>
+				    	   <li><div></div><span>张三</span></li>
+				    	   <li><div></div><span>李四</span></li>
+				    	   <li><div class="fang"></div><span>讨论群</span></li>
+				    </ul>
+				    <div class="head-plan-p">
+				      	<p>前期</p>
+				        <p class="su-time">完成时期:<span>&nbsp;2017-2-4</span></p>
+				    </div>
+				</div>
+			</div>
+			 <div class="plan-list">
+					<ul>
+						<li class="plan-list-one">基本任务信息</li>
+						<li>问题</li>
+						<li>关联工作</li>
+						<li>审批</li>
+						<li>帮助</li>
+						<li>工作计划</li>
+					</ul>
+			</div>
+			<div class="num1 num" style="display:block">
+			<div class="instructions">
+				<div class="instructions1">
+					<p>计划时间：<span>2017-4-7</span></p>
+					<p>开始时间：<span>2017-4-7</span></p>
+					<p>任务描述：<span>2017-4-7</span></p>
+				</div>
+				<div class="instructions2">
+					<p>当前状态：<span>前期</span></p>
+					<p>工具入口：<span>＊＊＊＊</span></p>
+				</div>
+			</div>
+			<div class="data-show">
+				<p>交付物</p>
+				<table border="1" cellspacing="0">
+                   <thead>
+                       <tr class="data-th">
+                          <th>编号</th>
+                          <th>中文名</th>
+                          <th>英文名</th>
+                          <th>创建人</th>
+                          <th>项目类型</th>
+                        </tr>
+                   </thead>
+                      <tbody id="add-con">
+                      	<tr>
+                      		<td>1</td>
+                      		<td>项目名称10</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>2</td>
+                      		<td>项目名称9</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>3</td>
+                      		<td>项目名称8</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>4</td>
+                      		<td>项目名称7</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>5</td>
+                      		<td>项目名称6</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>6</td>
+                      		<td>项目名称5</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      	<tr>
+                      		<td>7</td>
+                      		<td>项目名称5</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr><tr>
+                      		<td>8</td>
+                      		<td>项目名称5</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr><tr>
+                      		<td>9</td>
+                      		<td>项目名称5</td>
+                      		<td>Scott Alexander</td>
+                      		<td>Martha Carroll</td>
+                      		<td>项目类型3</td>
+                      	</tr>
+                      </tbody>
+                 </table>
+			</div>
+			</div>
+			<div class="num2 num">test1</div>
+			<div class="num3 num">test2</div>
+			<div class="num4 num">test3</div>
+			<div class="num5 num">test4</div>
+			<div class="num6 num">test5</div>
+		</div>
+		<div class="sidebar-r">
+			<ul>
+				<li><div></div><span>邮件</span></li>
+				<li><div></div><span>日志</span></li>
+				<li><div></div><span>会议</span></li>
+				<li><div></div><span>审批</span></li>
+				<li><div></div><span>全部</span></li>
+				<li class="sidebar-r-last"><div></div><span>客服</span></li>
+			</ul>
+		</div>
+		<script>
+			$(document).ready(function(){ 
+                     odd= {"background":"#EFF4FC","color":"#4A4A4A "};//奇数样式 
+                     even={"background":"#FFF","color":"#4A4A4A "};//偶数样式 
+                     odd_even("#add-con",odd,even); 
+                    
+                }); 
+            function odd_even(id,odd,even){ 
+            $(id).find("tr").each(function(index,element){ 
+             if(index%2==1) 
+                   $(this).css(odd); 
+                 else 
+              $(this).css(even); 
+               }); 
+           } 
+           $('.sidebar ul li').mouseenter(function(){
+           	        $('.sidebar ul li').find('span').css({'display':'none'});
+                    $(this).find('span').css({'display':'block'});
+             })
+           $('.plan-list ul li').click(function(){
+           	        var index = $(this).index();
+           	        $('.num').css({'display':'none'});
+           	        $('.num').eq(index).css({'display':'block'})
+           })
+		</script>
+	</body>
+</html>
